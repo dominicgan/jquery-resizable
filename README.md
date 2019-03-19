@@ -1,4 +1,7 @@
-# jquery-resizable 
+> @dominicgan: Exactly the same function except renamed so it will not clash with the resizable() method in jQuery UI 😅.
+
+# jquery-resizable2
+
 #### A small jQuery plug-in to make HTML DOM elements resizable 
 
 This small, self-contained jQuery plug-in allows you to make DOM elements resizable using a sizing handle. It works with Mouse and Touch events so you can resize elements on mobile devices. 
