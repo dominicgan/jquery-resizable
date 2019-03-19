@@ -19,7 +19,7 @@ Licensed under MIT License
 		factory(jQuery);
 	}
 }(function($, undefined) {
-    $.fn.resizableTableColumns = function(opt) {
+    $.fn.resizable2TableColumns = function(opt) {
         opt = $.extend({
             resizeHeight: false,
             handleSelector: "> .resizer",
@@ -29,7 +29,7 @@ Licensed under MIT License
             $(this)
                 .css({ position: "relative" })
                 .prepend("<div class='resizer'></div>")
-                .resizable(opt);
+                .resizable2(opt);
         });
     };
 }));

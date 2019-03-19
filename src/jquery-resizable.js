@@ -19,10 +19,10 @@ Licensed under MIT License
 	}
 }(function($, undefined) {
     
-    if ($.fn.resizable)
+    if ($.fn.resizable2)
         return;
 
-    $.fn.resizable = function fnResizable(options) {
+    $.fn.resizable2 = function fnResizable(options) {
         var defaultOptions = {
             // selector for handle that starts dragging
             handleSelector: null,
